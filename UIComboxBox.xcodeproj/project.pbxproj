@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C2CA6E16049611002E1984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2CA6D16049611002E1984 /* UIKit.framework */; };
+		A4C2CA7016049611002E1984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2CA6F16049611002E1984 /* Foundation.framework */; };
+		A4C2CA7216049611002E1984 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2CA7116049611002E1984 /* CoreGraphics.framework */; };
+		A4C2CA7816049611002E1984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4C2CA7616049611002E1984 /* InfoPlist.strings */; };
+		A4C2CA7A16049611002E1984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2CA7916049611002E1984 /* main.m */; };
+		A4C2CA7E16049611002E1984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2CA7D16049611002E1984 /* AppDelegate.m */; };
+		A4C2CA8116049611002E1984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2CA8016049611002E1984 /* ViewController.m */; };
+		A4C2CA8416049611002E1984 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C2CA8216049611002E1984 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4C2CA6916049611002E1984 /* UIComboxBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIComboxBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C2CA6D16049611002E1984 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4C2CA6F16049611002E1984 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4C2CA7116049611002E1984 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4C2CA7516049611002E1984 /* UIComboxBox-Info.plist */ = {isa = PBXFileReference; path = "UIComboxBox-Info.plist"; sourceTree = "<group>"; };
+		A4C2CA7716049611002E1984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4C2CA7916049611002E1984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4C2CA7B16049611002E1984 /* UIComboxBox-Prefix.pch */ = {isa = PBXFileReference; path = "UIComboxBox-Prefix.pch"; sourceTree = "<group>"; };
+		A4C2CA7C16049611002E1984 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4C2CA7D16049611002E1984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4C2CA7F16049611002E1984 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A4C2CA8016049611002E1984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4C2CA8316049611002E1984 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4C2CA6616049611002E1984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C2CA6E16049611002E1984 /* UIKit.framework in Frameworks */,
+				A4C2CA7016049611002E1984 /* Foundation.framework in Frameworks */,
+				A4C2CA7216049611002E1984 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4C2CA5E16049611002E1984 = {
+			isa = PBXGroup;
+			children = (
+				A4C2CA7316049611002E1984 /* UIComboxBox */,
+				A4C2CA6C16049611002E1984 /* Frameworks */,
+				A4C2CA6A16049611002E1984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4C2CA6A16049611002E1984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2CA6916049611002E1984 /* UIComboxBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C2CA6C16049611002E1984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2CA6D16049611002E1984 /* UIKit.framework */,
+				A4C2CA6F16049611002E1984 /* Foundation.framework */,
+				A4C2CA7116049611002E1984 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4C2CA7316049611002E1984 /* UIComboxBox */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2CA7C16049611002E1984 /* AppDelegate.h */,
+				A4C2CA7D16049611002E1984 /* AppDelegate.m */,
+				A4C2CA7F16049611002E1984 /* ViewController.h */,
+				A4C2CA8016049611002E1984 /* ViewController.m */,
+				A4C2CA8216049611002E1984 /* ViewController.xib */,
+				A4C2CA7416049611002E1984 /* Supporting Files */,
+			);
+			path = UIComboxBox;
+			sourceTree = "<group>";
+		};
+		A4C2CA7416049611002E1984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2CA7516049611002E1984 /* UIComboxBox-Info.plist */,
+				A4C2CA7616049611002E1984 /* InfoPlist.strings */,
+				A4C2CA7916049611002E1984 /* main.m */,
+				A4C2CA7B16049611002E1984 /* UIComboxBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4C2CA6816049611002E1984 /* UIComboxBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C2CA8716049611002E1984 /* Build configuration list for PBXNativeTarget "UIComboxBox" */;
+			buildPhases = (
+				A4C2CA6516049611002E1984 /* Sources */,
+				A4C2CA6616049611002E1984 /* Frameworks */,
+				A4C2CA6716049611002E1984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIComboxBox;
+			productName = UIComboxBox;
+			productReference = A4C2CA6916049611002E1984 /* UIComboxBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4C2CA6016049611002E1984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A4C2CA6316049611002E1984 /* Build configuration list for PBXProject "UIComboxBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4C2CA5E16049611002E1984;
+			productRefGroup = A4C2CA6A16049611002E1984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4C2CA6816049611002E1984 /* UIComboxBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4C2CA6716049611002E1984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C2CA7816049611002E1984 /* InfoPlist.strings in Resources */,
+				A4C2CA8416049611002E1984 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4C2CA6516049611002E1984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C2CA7A16049611002E1984 /* main.m in Sources */,
+				A4C2CA7E16049611002E1984 /* AppDelegate.m in Sources */,
+				A4C2CA8116049611002E1984 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4C2CA7616049611002E1984 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C2CA7716049611002E1984 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4C2CA8216049611002E1984 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C2CA8316049611002E1984 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4C2CA8516049611002E1984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A4C2CA8616049611002E1984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4C2CA8816049611002E1984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIComboxBox/UIComboxBox-Prefix.pch";
+				INFOPLIST_FILE = "UIComboxBox/UIComboxBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4C2CA8916049611002E1984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIComboxBox/UIComboxBox-Prefix.pch";
+				INFOPLIST_FILE = "UIComboxBox/UIComboxBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4C2CA6316049611002E1984 /* Build configuration list for PBXProject "UIComboxBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C2CA8516049611002E1984 /* Debug */,
+				A4C2CA8616049611002E1984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C2CA8716049611002E1984 /* Build configuration list for PBXNativeTarget "UIComboxBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C2CA8816049611002E1984 /* Debug */,
+				A4C2CA8916049611002E1984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4C2CA6016049611002E1984 /* Project object */;
+}
